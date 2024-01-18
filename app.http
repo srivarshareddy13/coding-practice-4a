@@ -1,0 +1,27 @@
+//get players 
+Send Request 
+Get http://localhost:3000/players/
+
+//get player 
+Send Request 
+Get http://localhost:3000/players/:playerId/ 
+
+//add player 
+Send Request 
+Post http://localhost:3000/players/ 
+{
+    "playerName": "Vishal",
+    "jerseyNumber": 17,
+    "role": "Bowler"
+} 
+//update player 
+Send Request 
+Put http://localhost:3000/palyers/:playerId/ 
+{
+    "playerName": "Maneesh",
+    "jerseyNumber": 54,
+    "role": "All-Rounder"
+} 
+//delete player 
+Send Request 
+Delete http://localhost:3000/players/:playerId/ 
